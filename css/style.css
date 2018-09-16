@@ -102,7 +102,7 @@ img {
 .myCarousel h1 {
   color: white;
   font-family: AnDemiBold;
-  font-size: 24px;
+  font-size: 30px;
 }
 .carousel {
   margin: 0px auto;
@@ -191,10 +191,11 @@ img {
   height: auto;
   width: auto;
 }
+.card-block {
+  margin-top: 40px;
+}
 .card-text {
   color: #707070;
-  /* max-height: 200px; */
-  /* overflow: scroll; */
   font-family: ANMedium;
   margin-left: 20px;
   margin-right: 20px;
@@ -202,9 +203,7 @@ img {
   font-size: 18px;
   line-height: 1.5;
 }
-/* .card-img-left .card-body {
-  margin-left: 10%;
-} */
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
@@ -254,6 +253,11 @@ img {
 }
 .footer-copyright {
   font-family: ANMedium;
-  font-size: 14px;
+  font-size: 12px;
   margin-left: 25px;
+}
+
+.fetures {
+  background-color: #0071bc;
+  border: solid 1px #707070;
 }
