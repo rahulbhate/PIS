@@ -73,7 +73,6 @@ h3 {
   font-family: AvenirNext-Medium;
   font-size: 16px;
 }
-
 .navbar-default .navbar-nav > li > a:hover {
   color: #0071bc;
   background: none;
@@ -83,6 +82,15 @@ h3 {
   font-family: ANDemiBold;
   color: #0071bc;
 }
+.navbar-inverse {
+  background-color: #393939;
+}
+.navbar-inverse .navbar-nav > li a {
+  font-family: AvenirNext-Medium;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
 img {
   margin: auto;
 }
@@ -210,6 +218,12 @@ img {
   background: none;
 }
 
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active {
+  background-color: #febe0e;
+}
+
 .page-footer {
   background-color: #393939;
   color: white;
@@ -260,4 +274,8 @@ img {
 .fetures {
   background-color: #0071bc;
   border: solid 1px #707070;
+}
+.features h3,
+p {
+  text-align: center;
 }
