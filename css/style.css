@@ -1,0 +1,263 @@
+/* CSS Styling to make web page responsive... */
+
+/* Global style. General Rules */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  line-height: 1.5em;
+  padding: 2.25em 1.6875em;
+  font-family: AvenirNext-DemiBold;
+}
+h1 {
+  font-family: ANDemiBold;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  margin-left: 20px;
+  line-height: 1.03;
+}
+h2 {
+  font-family: ANDemiBold;
+  font-size: 18px;
+  color: #707070;
+  margin-left: 20px;
+  line-height: 1.4;
+}
+h3 {
+  font-family: ANDemiBold;
+  font-size: 18px;
+  color: white;
+  line-height: 1.4;
+}
+.learnMore {
+  color: #0071bc;
+  font-family: ANDemiBold;
+  font-size: 16px;
+}
+.copyrights {
+  font-family: ANRegular;
+  font-size: 12px;
+  color: white;
+  margin-left: 20px;
+}
+.my-navbar {
+  background-color: white;
+  min-height: 80px;
+  box-shadow: 0 3px 10px 0 rgba(186, 186, 186, 0.13);
+}
+.my-navbarBottom {
+  background-color: #393939;
+}
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+.navbar-brand img {
+  margin-top: 20px;
+}
+.navbar-fixed-top .nav {
+  padding: 20px 0;
+}
+.navbar-toggle {
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+.navbar-default .navbar-nav > li a {
+  font-family: AvenirNext-Medium;
+  font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #0071bc;
+  background: none;
+}
+.navbar-default .navbar-nav > li.active > a {
+  background: none;
+  font-family: ANDemiBold;
+  color: #0071bc;
+}
+img {
+  margin: auto;
+}
+.bottom-headings {
+  color: #707070;
+  font-family: ANMedium;
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: center;
+}
+.para {
+  color: #707070;
+  font-family: ANMedium;
+  font-size: 14px;
+}
+
+.myCarousel h1 {
+  color: white;
+  font-family: AnDemiBold;
+  font-size: 30px;
+}
+.carousel {
+  margin: 0px auto;
+}
+.carousel-caption {
+  right: 10%;
+  top: 40%;
+  left: auto;
+  bottom: auto;
+}
+.choose-us {
+  text-align: center;
+  font-size: 30px;
+  font-family: ANBold;
+}
+.featurette h2 {
+  text-align: center;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 250px;
+  right: 40px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #393939;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  opacity: 0.5;
+  border-radius: 4px;
+}
+.btn-warning {
+  background-color: #fbc400;
+  margin: 0px auto;
+}
+.btn-warning:hover {
+  background-color: #ffcc3f;
+}
+#myBtn:hover {
+  background-color: #555;
+}
+
+.bottomContents {
+  background-color: #393939;
+}
+/* .bottomContents ul li {
+  margin-top: 5px;
+} */
+
+.bottomContents ul li a {
+  color: white;
+  font-family: ANMedium;
+  font-size: 12px;
+  margin: 30px;
+  padding: 1em;
+  margin: 1em;
+}
+#bottomnav li a {
+  color: white;
+  background: none;
+}
+#bottomnav li a:hover {
+  color: white;
+  background-color: #febe0e;
+}
+.comingsoon {
+  color: #bababa;
+  font-family: ANDemiBoldItalic;
+  font-size: 18px;
+  text-align: center;
+}
+
+.mysection {
+  background-color: #f4f4f4;
+}
+.card {
+  background-color: white;
+  margin: 20px auto;
+  height: auto;
+}
+
+.card-img-bottom {
+  height: auto;
+  width: auto;
+}
+.card-block {
+  margin-top: 40px;
+}
+.card-text {
+  color: #707070;
+  font-family: ANMedium;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background: none;
+}
+
+.page-footer {
+  background-color: #393939;
+  color: white;
+  font-family: ANRegular;
+  font-size: 16px;
+}
+.list-unstyled {
+  margin-top: 20px;
+}
+.list {
+  margin-top: 10px;
+  padding: 10px;
+  line-height: 1.35;
+}
+.list-unstyled li {
+  display: inline-block;
+}
+.list-unstyled li a {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.list-unstyled li a:hover {
+  background-color: #febe0e;
+}
+.list-unstyled li.active > a {
+  background-color: #febe0e;
+}
+.list li {
+  color: white;
+  list-style-type: none;
+}
+.list li a {
+  color: white;
+
+  text-decoration: none;
+}
+.footer-copyright {
+  font-family: ANMedium;
+  font-size: 12px;
+  margin-left: 25px;
+}
+
+.fetures {
+  background-color: #0071bc;
+  border: solid 1px #707070;
+}
