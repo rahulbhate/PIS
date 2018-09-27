@@ -1,14 +1,13 @@
 <?php include_once("header.php"); 
 include_once("sub-layouts/subMenu.php");
 ?>
-    
+    <div class="container">
     <section class="mysection">
         <button onclick="topFunction()" id="myBtn" title="Go to top">
             <p class="glyphicon glyphicon-arrow-up"></p>
         </button>
 
     </section>
-    <div class="container">
         <ul class="nav nav-pills nav-justified">
             <li> <a data-toggle="tab" href="#pickContents">Picking System</a></li>
             <li class="active"><a href="#sortContents" data-toggle="tab">Sorting System</a></li>
@@ -193,4 +192,5 @@ include_once("sub-layouts/subMenu.php");
                 </table>
             </div>
         </div>
-        <?php  include_once("footer.php");?>
+</div>
+<?php  include_once("footer.php");?>

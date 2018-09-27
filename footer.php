@@ -1,16 +1,11 @@
-	<!-- Footer -->
+	
+	<div class="container-fluid">
 	<footer class="page-footer">
 
-		<!-- Footer Links -->
-		<div class="container-fluid">
-
-			<!-- Grid row -->
 			<div class="row">
 
-				<!-- Grid column -->
 				<div class="col-md-7">
 
-					<!-- Content -->
 					<ul class="list-unstyled">
 						<li class="active"><a href="#">Home</a></li>
 						<li><a href="#">Solutions</a></li>
@@ -21,11 +16,6 @@
 					</ul>
 
 				</div>
-				<!-- Grid column -->
-
-				<!-- <hr class="clearfix w-100 d-md-none pb-3"> -->
-
-				<!-- Grid column -->
 				<div class="col-md-3">
 					<ul class="list">
 						<li>
@@ -40,9 +30,7 @@
 					</ul>
 
 				</div>
-				<!-- Grid column -->
-
-				<!-- Grid column -->
+			
 				<div class="col-md-2">
 
 					<ul class="list">
@@ -54,22 +42,19 @@
 					</ul>
 
 				</div>
-				<!-- Grid column -->
+	
 
 			</div>
-			<!-- Grid row -->
 
 		</div>
-		<!-- Footer Links -->
-
-		<!-- Copyright -->
+		
 		<div class="footer-copyright text-left">Copyright © 2018 Priority Industrial Solution all rights reserved
 
 		</div>
-		<!-- Copyright -->
+	
 
 	</footer>
-	<!-- Footer -->
+</div>
 	<script>
 		// When the user scrolls down 20px from the top of the document, show the button
 		window.onscroll = function () { scrollFunction() };

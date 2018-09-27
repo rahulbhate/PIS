@@ -15,7 +15,7 @@
 
 
 <body>
-<div style="padding-top:60px;">
+<div style="padding-top:30px;">
 	<nav class="my-navbar navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header pull-left">

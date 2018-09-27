@@ -33,7 +33,14 @@ h2 {
 h3 {
   font-family: ANDemiBold;
   font-size: 18px;
-  color: red;
+  color: white;
+  line-height: 1.4;
+  text-align: center;
+}
+p {
+  font-family: ANRegular;
+  font-size: 14px;
+  color: white;
   line-height: 1.4;
   text-align: center;
 }
@@ -95,13 +102,12 @@ h4 {
   background-color: #393939;
 }
 .navbar-inverse .navbar-nav > li a {
-  font-family: AvenirNext-Medium;
-  font-size: 18px;
-  margin-top: 15px;
+  font-family: ANMedium;
+  font-size: 16px;
   color: white;
 }
-.navbar-inverse .navbar-nav > li a hover {
-  font-family: AvenirNext-Medium;
+.navbar-inverse .navbar-nav > li a:hover {
+  font-family: ANMedium;
   font-size: 18px;
   color: white;
   background-color: #febe0e;
