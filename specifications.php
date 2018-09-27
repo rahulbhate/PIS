@@ -1,58 +1,7 @@
-<!DOCTYPE html>
-<html lang="en-US">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Priority Integrated Solutions</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/fonts.css">
-</head>
-
-<body>
-
-    <nav class="my-navbar navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header pull-left">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><img src="../images/logo.svg" width="200" height="600" class="img-responsive" />
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="solutions.html">Solutions</a></li>
-                    <li><a href="#">Project Cases</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div style="margin-top:50px;" class="container-fluid">
-        <nav class="navbar navbar-inverse">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">SOLUTIONS / AMR</a>
-                </div>
-                <ul class="nav navbar-nav pull-right">
-                    <li><a href="./overview.html">Overview</a></li>
-                    <li class="active"><a href="./specifications.html">Specification</a></li>
-                    <li><a href="#">Applications</a></li>
-                    <li><a href="#">DOWNLOAD <img src="../AMRimage/download.png"> </a> </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+<?php include_once("header.php"); 
+include_once("sub-layouts/subMenu.php");
+?>
+    
     <section class="mysection">
         <button onclick="topFunction()" id="myBtn" title="Go to top">
             <p class="glyphicon glyphicon-arrow-up"></p>
@@ -72,6 +21,11 @@
                 <table class="table">
 
                     <tbody>
+                        <tr>
+                            <td></td>
+                            <td><img src="./AMRimage/spec 3.png"/></td>
+                            <td><img src="./AMRimage/spec 4.png"/></td>
+                        </tr>
                         <tr class="active">
                             <td>Size (L*W*H)</td>
                             <td>970*800*830(mm)</td>
@@ -119,6 +73,11 @@
                 <table class="table">
 
                     <tbody>
+                    <tr>
+                            <td></td>
+                            <td><img src="./AMRimage/spec 1.png"/></td>
+                            <td><img src="./AMRimage/spec 2.png"/></td>
+                        </tr>
                         <tr class="active">
                             <td>Size (L*W*H)</td>
                             <td>915*715*300(mm)</td>
@@ -234,114 +193,4 @@
                 </table>
             </div>
         </div>
-        <footer class="page-footer">
-
-            <!-- Footer Links -->
-            <div class="container-fluid">
-
-                <!-- Grid row -->
-                <div class="row">
-
-                    <!-- Grid column -->
-                    <div class="col-md-7">
-
-                        <!-- Content -->
-                        <ul class="list-unstyled">
-                            <li><a href="#">Home</a></li>
-                            <li class="active"><a href="#">Solutions</a></li>
-                            <li><a href="#">Project Cases</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- <hr class="clearfix w-100 d-md-none pb-3"> -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-3">
-                        <ul class="list">
-                            <li>
-                                <a href="#!">Phone: 1300 765 875</a>
-                            </li>
-                            <li>
-                                <a href="#!"> Fax: (03) 8339 0806</a>
-                            </li>
-                            <li>
-                                <a href="#!">Email: info@priority-is.com.au</a>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-2">
-
-                        <ul class="list">
-                            <li>
-                                <a href="#!">Address:
-                                    13 Lara Way,
-                                    Campbellfield VIC 3016 </a>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <!-- Grid column -->
-
-                </div>
-                <!-- Grid row -->
-
-            </div>
-            <!-- Footer Links -->
-
-            <!-- Copyright -->
-            <div class="footer-copyright text-left">Copyright © 2018 Priority
-                Industrial
-                Solution
-                all rights reserved
-
-            </div>
-            <!-- Copyright -->
-
-        </footer>
-        <script>
-            // When the user scrolls down 20px from the top of the document, show the button
-            window.onscroll = function () { scrollFunction() };
-
-            function scrollFunction() {
-                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                    document.getElementById("myBtn").style.display = "block";
-                } else {
-                    document.getElementById("myBtn").style.display = "none";
-                }
-            }
-
-            // When the user clicks on the button, scroll to the top of the document
-            function topFunction() {
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-            }
-        </script>
-
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > 100) {
-                        $('.scrollup').fadeIn();
-                    } else {
-                        $('.scrollup').fadeOut();
-                    }
-                });
-
-                $('.scrollup').click(function () {
-                    $("html, body").animate({ scrollTop: 0 }, 600);
-                    return false;
-                });
-            });
-        </script>
-</body>
-
-</html>
+        <?php  include_once("footer.php");?>

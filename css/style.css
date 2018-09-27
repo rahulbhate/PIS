@@ -13,6 +13,7 @@ body {
   line-height: 1.5em;
   padding: 2.25em 1.6875em;
   font-family: AvenirNext-DemiBold;
+  padding-top: 60px;
 }
 h1 {
   font-family: ANDemiBold;
@@ -32,8 +33,16 @@ h2 {
 h3 {
   font-family: ANDemiBold;
   font-size: 18px;
-  color: white;
+  color: red;
   line-height: 1.4;
+  text-align: center;
+}
+h4 {
+  font-family: ANDemiBold;
+  font-size: 18px;
+  color: black;
+  line-height: 1.4;
+  text-align: center;
 }
 .learnMore {
   color: #0071bc;
@@ -87,10 +96,16 @@ h3 {
 }
 .navbar-inverse .navbar-nav > li a {
   font-family: AvenirNext-Medium;
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 15px;
+  color: white;
 }
-
+.navbar-inverse .navbar-nav > li a hover {
+  font-family: AvenirNext-Medium;
+  font-size: 18px;
+  color: white;
+  background-color: #febe0e;
+}
 img {
   margin: auto;
 }
@@ -125,6 +140,7 @@ img {
   text-align: center;
   font-size: 30px;
   font-family: ANBold;
+  color: white;
 }
 .featurette h2 {
   text-align: center;
@@ -192,6 +208,7 @@ img {
 .card {
   background-color: white;
   margin: 20px auto;
+  box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
   height: auto;
 }
 
@@ -217,12 +234,12 @@ img {
 .navbar-default .navbar-nav > .active > a:hover {
   background: none;
 }
-
+/* 
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:focus,
 .navbar-inverse .navbar-nav > .active {
   background-color: #febe0e;
-}
+} */
 
 .page-footer {
   background-color: #393939;
@@ -273,11 +290,7 @@ img {
 
 .fetures {
   background-color: #0071bc;
-  border: solid 1px #707070;
-}
-.features h3,
-p {
-  text-align: center;
+  border: solid 5px white;
 }
 
 .table tbody tr td {
@@ -291,13 +304,19 @@ p {
   border-bottom: 2px solid #0071bc;
   background: none;
   color: #707070;
-  font-family: AvNextRegular;
-  font-size: 18px;
+  font-family: AnRegular;
+  font-size: 20px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.5;
   letter-spacing: normal;
   text-align: center;
+  color: #707070;
   margin-bottom: 20px;
+}
+#panel {
+  background-color: #0071bc;
+  background-color: var(--cerulean);
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.16);
 }
