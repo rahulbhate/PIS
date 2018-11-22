@@ -43,14 +43,14 @@ include_once("sub-layouts/subMenu.php");
                                     <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12">
                                         <h1 class="choose-us">FEATURES</h1>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-6">
-                                        <div class="big-box"> <img src="AMRimage/overview 2.png" width="330px" height="200px" class="img-responsive"></div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-lg-6 col-sm-12 col-xs-12">
+                                        <div class="big-box"> <img src="AMRimage/overview-2.png" class="img-responsive"></div>
                                     </div>
-                                    <div class="col-xs-6">
+                                    <div class="col-lg-6 col-xs-12">
                                         <div class="row">
-                                            <div class="col-xs-6">
+                                            <div class="col-lg-6 col-sm-12 col-xs-12">
                                                 <div class="mini-box" style=" text-align: center; color: white;background-color: #0071bc;
   background-color: var(--cerulean);
   box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.16);
@@ -61,26 +61,26 @@ include_once("sub-layouts/subMenu.php");
                                                                 cost by 50% to 70%</p>
                                                 </div>
                                             </div>
-                                            <div class="col-xs-6"><div class="mini-box" style=" text-align: center;color: white; background-color: #0071bc;
+                                            <div class="col-lg-6 col-sm-12 col-xs-12"><div class="mini-box" style=" text-align: center;color: white; background-color: #0071bc;
   background-color: var(--cerulean);
   box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.16);
 "> <img src="AMRimage/overview 5.png" class="img-responsive">
                                                                     <h3>Higher efficiency</h3>
                                                                     <p>Improved capacity, flows and lead
                                                                         times</p></div></div>
-                                            <div class="col-xs-6"><div class="mini-box" style=" white; text-align: center; color: white;background-color: #0071bc;
+                                            <div class="col-lg-6 col-sm-12 col-xs-12"><div class="mini-box" style=" white; text-align: center; color: white;background-color: #0071bc;
   background-color: var(--cerulean);
   box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.16);
 ">   <img src="AMRimage/overview 4.png" class="img-responsive">
                                                                     <h3>Scientific management</h3>
                                                                     <p>Scientific, industrail ? and
                                                                         orgnized management</p></div></div>
-                                            <div class="col-xs-6"><div class="mini-box" style=" white; text-align: center; color: white;background-color: #0071bc;
+                                            <div class="col-lg-6 col-sm-12 col-xs-12"><div class="mini-box" style=" white; text-align: center; color: white;background-color: #0071bc;
   background-color: var(--cerulean);
   box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.16);
 "> <img src="AMRimage/over view 6.png" class="img-responsive">
                                                                     <h3>Well-defined procedures</h3>
-                                                                    </p>The accuracy attains 99.99%</p>
+                                                                    <p>The accuracy attains 99.99%</p>
                                     </div></div>
                                         </div>
                                     </div>
@@ -96,20 +96,20 @@ include_once("sub-layouts/subMenu.php");
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 col-lg-4 col-sm-4 col-xl-4 col-xs-4">
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-xl-4 col-xs-12">
                                     <div style="border-right: 1px solid #bababa;">
                                         <img src="AMRimage/overview 7.png" width="330px" height="200px" class="img-responsive">
                                         <h4>Robot</h4>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-lg-4 col-sm-4 col-xl-4 col-xs-4">
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-xl-4 col-xs-12">
                                     <div style="border-right: 1px solid #bababa;">
                                         <img src="AMRimage/overview 8.png" class="img-responsive" width="380px"
                                             height="276px">
                                         <h4>Multigent System</h4>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-lg-4 col-sm-4 col-xl-4 col-xs-4">
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-xl-4 col-xs-12">
                                     <img src="AMRimage/overview 9.png" class="img-responsive" width="330px" height="200px">
                                     <h4>Software-based Algorithms</h4>
                                 </div>

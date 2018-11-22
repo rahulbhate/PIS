@@ -99,7 +99,7 @@
 					<div class="row">
 						<div class="col-md-6 col-xs-12 col-sm-12 col-lg-6">
 							<div class="card-img-bottom">
-								<img src="images/123_副本98092016760417.png" class="img-responsive">
+								<img src="images/123_98092016760417.jpg" class="img-responsive">
 							</div>
 						</div>
 						<div class="col-md-6 col-xs-12 col-sm-12 col-lg-6">
